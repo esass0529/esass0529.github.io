@@ -1,0 +1,29 @@
+#background {
+  background-color:rgb(255, 255, 255);
+}
+
+#websitePortion {
+  color:rgb(31, 122, 162);
+  font-size:20px;
+  font-family:sans-serif;
+}
+
+#myname {
+  color:rgb(31, 122, 162);
+  font-size:180px;
+  font-family:fantasy;
+  align: center;
+}
+
+#stickfigurePortion {
+  color:rgb(31, 122, 162);
+  font-size: 20px;
+  font-family:sans-serif;
+}
+
+/*#factsPortion {
+  color:rgb(31, 122, 162);
+  font-size: 18px;
+  font-family:sans-serif;
+}
+*/
