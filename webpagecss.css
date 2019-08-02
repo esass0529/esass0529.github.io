@@ -1,29 +1,55 @@
-#background {
-  background-color:rgb(255, 255, 255);
+body {
+  background-color: white;
+  margin:0;
 }
 
-#websitePortion {
+/*#websitePortion {
+  color:rgb(31, 122, 162);
+  font-size:20px;
+  font-family:sans-serif;
+}*/
+
+.text {
   color:rgb(31, 122, 162);
   font-size:20px;
   font-family:sans-serif;
 }
 
+
 #myname {
   color:rgb(31, 122, 162);
   font-size:180px;
   font-family:fantasy;
-  align: center;
 }
 
-#stickfigurePortion {
-  color:rgb(31, 122, 162);
-  font-size: 20px;
-  font-family:sans-serif;
+
+/*Slideshow stuff below... */
+
+
+img{
+  vertical-align: middle;
+  max-width: 1000px;
+
 }
 
-/*#factsPortion {
-  color:rgb(31, 122, 162);
-  font-size: 18px;
-  font-family:sans-serif;
+.mySlides {
+  display:none;
 }
-*/
+
+/*This is the class holding all the images */
+.slideshow-container {
+  max-width: 1000px;
+  text-align: center;
+}
+
+
+/* previous and next arrows */
+.prev, .next {
+  position: absolute; /*This makes the arrows present over the picture */
+  padding: 15px 32px;  
+}
+
+/*Class for the righ arrow*/
+.next {
+  right: 0; /*this means the distance from the right is 0 */
+}

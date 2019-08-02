@@ -7,27 +7,32 @@
   <title> EMMA SASSOUNI </title>
 </head>
 
-<body id="background">
-  <script> StartingAlert() </script>
-  <p id="myname"> Emma Sassouni </p>
+<body>
+  <script>StartingAlert()</script>
+  <p id="myname" style="text-align:center;"> Emma Sassouni </p>
+  <div class="text">
+    <p style="text-align:center;"> Hello! Over the summer I coded this webpage (OMG I KNOW). Go through the slides and learn some stuff! </p>
+  </div>
 
-  <div id="stickfigurePortion">
-    <p> Hello! Over the summer I coded this webpage (OMG I KNOW). To see what I really look like, press the button. </p>
-    <img src="stickfigure.jpg.jpg">
-    <button onclick="ShowEmma()"> Click me! </button>
-    <p id="ShowEmma"<</P>
-      <script> ShowEmma() </script>
-
-
-
-
-  <div id="websitePortion">
+  <div id="websitePortion" style="text-align:center"; class="text">
     <p>                                             </p>
     <a href="https://emmasassouni.wixsite.com/mysite"> EmmaSassouni-Website </a>
   </div>
 
-</body>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
+  <div class="slideshow-container">
+    <img src="nothing.png" style="width:100%" class="mySlides">
+    <img src="welcome.png" style="width:100%" class="mySlides">
+    <img src="imemma.png" style="width:100%" class="mySlides">
+    <img src="icecream.png" style="width:100%" class="mySlides">
+  </div>
+
+
+
+
+</body>
 
 </html>
 
