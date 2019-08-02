@@ -30,6 +30,7 @@ img{
   vertical-align: middle;
   max-width: 1000px;
 
+
 }
 
 .mySlides {
@@ -38,15 +39,17 @@ img{
 
 /*This is the class holding all the images */
 .slideshow-container {
-  max-width: 1000px;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 
 /* previous and next arrows */
 .prev, .next {
   position: absolute; /*This makes the arrows present over the picture */
-  padding: 15px 32px;  
+  padding: 15px 32px;
 }
 
 /*Class for the righ arrow*/
